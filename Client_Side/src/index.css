@@ -27,3 +27,8 @@
 .scrollbar-hide::-webkit-scrollbar{
     display: none;
 }
+
+
+.Top_Title_Color{
+    color: #88b7e8;
+}

@@ -1,11 +1,11 @@
 import React from 'react'
 import { useTypewriter, Cursor } from "react-simple-typewriter";
-import { FaFacebookF, FaTwitter, FaLinkedinIn, FaReact } from "react-icons/fa";
+import { FaFacebookF, FaTwitter, FaLinkedinIn, FaReact, FaStackOverflow } from "react-icons/fa";
 import { SiTailwindcss, SiFigma, SiNextdotjs } from "react-icons/si";
 
 const LeftBanner = () => {
     const [text] = useTypewriter({
-      words: ["Professional Coder.", "Full Stack Developer.", "UI Designer."],
+      words: ["Professional Coder.", "MERN Stack Developer.", "REST/RESTful APIs developer."],
       loop: true,
       typeSpeed: 20,
       deleteSpeed: 10,
@@ -16,7 +16,7 @@ const LeftBanner = () => {
       <div className="flex flex-col gap-5">
         <h4 className=" text-lg font-normal">WELCOME TO MY WORLD</h4>
         <h1 className="text-6xl font-bold text-white">
-          Hi, I'm <span className="text-designColor capitalize">Rasal Hossain (Adib)</span>
+          Hi, I'm <span className="text-designColor Top_Title_Color capitalize">Rasel Hossain (Adib)</span>
         </h1>
         <h2 className="text-4xl font-bold text-white">
           a <span>{text}</span>
@@ -27,9 +27,8 @@ const LeftBanner = () => {
           />
         </h2>
         <p className="text-base font-bodyFont leading-6 tracking-wide">
-          I use animation as a third dimension by which to simplify experiences
-          and kuiding thro each and every interaction. I'm not adding motion
-          just to spruce things up, but doing it in ways that.
+        I'm Rasel Hossain (Adib), a (MERN) Stack developer. I have strong experience in various technologies including Html, CSS, Bootstrap, JavaScript, React js, Node js, Express js, MongoDB, WordPress, Adobe Photoshop, Adobe Illustrator, and Office Applications. Feel free to contact me if you need help with any of this.
+I look forward to partnering with you.
         </p>
       </div>
       <div className="flex flex-col xl:flex-row gap-6 lgl:gap-0 justify-between">
@@ -38,15 +37,22 @@ const LeftBanner = () => {
             Find me in
           </h2>
           <div className="flex gap-4">
-            <span className="bannerIcon">
-              <FaFacebookF />
-            </span>
-            <span className="bannerIcon">
-              <FaTwitter />
-            </span>
-            <span className="bannerIcon">
-              <FaLinkedinIn />
-            </span>
+              <a href="https://www.facebook.com/RaselHossainAdib" target="_blank">
+                <span className="bannerIcon">
+                    <FaFacebookF />
+                </span>
+              </a>
+              <a href="https://stackoverflow.com/users/18261117/rasel-hossain-adib" target="_blank">
+                <span className="bannerIcon">
+                  <FaStackOverflow />
+                </span>
+              </a>
+
+              <a href="https://www.linkedin.com/in/raselhossainadib/" target="_blank">
+                <span className="bannerIcon">
+                  <FaLinkedinIn />
+                </span>
+              </a>
           </div>
         </div>
         <div>
