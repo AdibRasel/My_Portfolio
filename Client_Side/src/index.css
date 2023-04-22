@@ -32,3 +32,12 @@
 .Top_Title_Color{
     color: #88b7e8;
 }
+.text-designColor{
+    color: #88b7e8;
+}
+.bg-designColor{
+    background-color: #88b7e8;
+}
+.bannerIcon:hover{
+    color: #88b7e8;
+}

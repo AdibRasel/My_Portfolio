@@ -1,6 +1,7 @@
 import React from 'react'
 import { useTypewriter, Cursor } from "react-simple-typewriter";
-import { FaFacebookF, FaTwitter, FaLinkedinIn, FaReact, FaStackOverflow } from "react-icons/fa";
+import {FaFacebookF, FaTwitter,FaGithub, FaLinkedinIn, FaReact, FaStackOverflow } from "react-icons/fa";
+import {SiMongodb, SiNodedotjs, SiExpress} from "react-icons/si";
 import { SiTailwindcss, SiFigma, SiNextdotjs } from "react-icons/si";
 
 const LeftBanner = () => {
@@ -42,6 +43,11 @@ I look forward to partnering with you.
                     <FaFacebookF />
                 </span>
               </a>
+              <a href="https://github.com/AdibRasel" target="_blank">
+                <span className="bannerIcon">
+                    <FaGithub />
+                </span>
+              </a>
               <a href="https://stackoverflow.com/users/18261117/rasel-hossain-adib" target="_blank">
                 <span className="bannerIcon">
                   <FaStackOverflow />
@@ -61,16 +67,16 @@ I look forward to partnering with you.
           </h2>
           <div className="flex gap-4">
             <span className="bannerIcon">
+              <SiMongodb />
+            </span>
+            <span className="bannerIcon">
+              <SiExpress />
+            </span>
+            <span className="bannerIcon">
               <FaReact />
             </span>
             <span className="bannerIcon">
-              <SiNextdotjs />
-            </span>
-            <span className="bannerIcon">
-              <SiTailwindcss />
-            </span>
-            <span className="bannerIcon">
-              <SiFigma />
+              <SiNodedotjs  />
             </span>
           </div>
         </div>
