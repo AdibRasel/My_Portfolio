@@ -12,26 +12,32 @@ const Education = () => {
       {/* part one */}
       <div>
         <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">1998 - 2010</p>
+          <p className="text-sm text-designColor tracking-[4px]">2010 - 2023</p>
           <h2 className="text-3xl md:text-4xl font-bold">Education Quality</h2>
         </div>
         <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="BSc in Computer Science"
-            subTitle="University of DVI (2006 - 2010)"
-            result="3.90/4"
+            title="Higher Secondary School Certificate(HSC)"
+            subTitle="Sompara College"
+            result="3.33"
             des="The training provided by universities in order to prepare people to work in various sectors of the economy or areas of culture."
           />
           <ResumeCard
-            title="AS - Science & Information"
-            subTitle="SuperKing College (2001 - 2005)"
-            result="4.75/5"
+            title="Secondary School Certificate(SSC)"
+            subTitle="Shahapur M L High School"
+            result="3.27"
             des="Higher education is tertiary education leading to award of an academic degree. Higher education, also called post-secondary education."
           />
           <ResumeCard
-            title="Secondary School Education"
-            subTitle="Kingstar Secondary School (1998 - 2000)"
-            result="5.00/5"
+            title="Junior School Certificate (JSC)"
+            subTitle="Shahapur M L High School"
+            result="3.77"
+            des="Higher education is tertiary education leading to award of an academic degree. Higher education, also called post-secondary education."
+          />
+          <ResumeCard
+            title="Primary School Certificate(PSC)"
+            subTitle="Narayonpur 1 Praimari School"
+            result="3.45"
             des="Secondary education or post-primary education covers two phases on the International Standard Classification of Education scale."
           />
         </div>
@@ -40,27 +46,51 @@ const Education = () => {
 
       <div>
         <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">2010 - 2022</p>
+          <p className="text-sm text-designColor tracking-[4px]">2018 - 2023</p>
           <h2 className="text-3xl md:text-4xl font-bold">Job Experience</h2>
         </div>
-        <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
+        <div className="mt-6 lgl:mt-14 w-full h-[1700px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="Sr. Software Engineer"
-            subTitle="Google Out Tech - (2017 - Present)"
-            result="USA"
-            des="Google's hiring process is an important part of our culture. Googlers care deeply about their teams and the people who make them up."
+            title="Imo Holidays"
+            subTitle="Web Developer (Wordpress)"
+            result="Badda Link Rode, Dhaka, Bangladesh"
+            des="Whatever your life’s work is, do it well. A man should do his job so well that the living, the dead, and the unborn could do it no better"
           />
           <ResumeCard
-            title="Web Developer & Trainer"
-            subTitle="Apple Developer Team - (2012 - 2016)"
-            result="MALAYSIA"
-            des="A popular destination with a growing number of highly qualified homegrown graduates, it's true that securing a role in Malaysia isn't easy."
+            title="Bank Asia (Agent Banking)"
+            subTitle="Customer Service Officer (CSO)"
+            result="Shahapur, Chatkhil, Bangladesh"
+            des="Whatever your life’s work is, do it well. A man should do his job so well that the living, the dead, and the unborn could do it no better"
           />
           <ResumeCard
-            title="Front-end Developer"
-            subTitle="Nike - (2020 - 2011)"
-            result="Oman"
-            des="The Oman economy has grown strongly over recent years, having transformed itself from a producer and innovation-based economy."
+            title="Tosil Office"
+            subTitle="Computer Operator"
+            result="Shahapur, Chatkhil, Bangladesh"
+            des="Work takes on new meaning when you feel you are pointed in the right direction. Otherwise, it’s just a job, and life is too short for that."
+          />
+          <ResumeCard
+            title="Bank Asia (Agent Banking)"
+            subTitle="Customer Service Officer (CSO)"
+            result="Feni Tomijiya Mosjid Rode, Feni, Bangladesh"
+            des="You know you are on the road to success if you would do your job, and not be paid for it."
+          />
+          <ResumeCard
+            title="GMG Trading (Pvt.) Ltd."
+            subTitle="Computer Operator"
+            result="House # 111, Road # 13, Block # E. Banani.. P.C. 1213, Gulshan, Dhaka"
+            des="You know you are on the road to success if you would do your job, and not be paid for it."
+          />
+          <ResumeCard
+            title="Shahajalal Islami Bank (Agent Banking)."
+            subTitle="Customer Service Officer (CSO)"
+            result="Shahapur, Chatkhil, Bangladesh"
+            des="You know you are on the road to success if you would do your job, and not be paid for it."
+          />
+          <ResumeCard
+            title="Assistant Teacher."
+            subTitle="Bangla & English"
+            result="Gopairbag, Shahapur, Chatkhil, Bangladesh"
+            des="You know you are on the road to success if you would do your job, and not be paid for it."
           />
         </div>
       </div>
