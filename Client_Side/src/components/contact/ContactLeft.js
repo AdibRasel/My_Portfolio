@@ -1,43 +1,64 @@
 import React from 'react'
-import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
+// import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
 import { contactImg } from "../../assets/index";
+// import { RasalHossain } from "../../assets/index";
+import RasalHossain from "../../assets/images/RasalHossain.png"
+// import RasalHossain from "../../assets/images/bannerImg.png"
+
+import {FaFacebookF, FaTwitter,FaGithub, FaLinkedinIn, FaReact, FaStackOverflow } from "react-icons/fa";
+import {SiMongodb, SiNodedotjs, SiExpress} from "react-icons/si";
+import { SiTailwindcss, SiFigma, SiNextdotjs } from "react-icons/si";
 
 const ContactLeft = () => {
   return (
     <div className="w-full lgl:w-[35%] h-full bg-gradient-to-r from-[#1e2024] to-[#23272b] p-4 lgl:p-8 rounded-lg shadow-shadowOne flex flex-col gap-8 justify-center">
       <img
         className="w-full h-64 object-cover rounded-lg mb-2"
-        src={contactImg}
+        src={RasalHossain}
         alt="contactImg"
       />
       <div className="flex flex-col gap-4">
-        <h3 className="text-3xl font-bold text-white">John Doe</h3>
+        <h3 className="text-3xl font-bold text-white">Rasel Hossain (Adib)</h3>
         <p className="text-lg font-normal text-gray-400">
           MERN Stack Developer
         </p>
         <p className="text-base text-gray-400 tracking-wide">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis
-          ipsam autem cumque, accusantium dicta odio.
+        I'm Rasel Hossain (Adib), a (MERN) Stack developer. I have strong experience in various technologies including Html, CSS, Bootstrap,
+         JavaScript, React js, Node js, Express js, MongoDB, WordPress, Adobe Photoshop, Adobe Illustrator, and Office Applications. 
+         Feel free to contact me if you need help with any of this.
+         I look forward to partnering with you.
         </p>
         <p className="text-base text-gray-400 flex items-center gap-2">
-          Phone: <span className="text-lightText">+968 97859628</span>
+          Phone: <span className="text-lightText">01934544352</span>
         </p>
         <p className="text-base text-gray-400 flex items-center gap-2">
-          Email: <span className="text-lightText">noor.jsdivs@gmail.com</span>
+          Email: <span className="text-lightText">adibrasel.com@gmail.com, adibrasel.2022@gmail.com</span>
         </p>
       </div>
       <div className="flex flex-col gap-4">
         <h2 className="text-base uppercase font-titleFont mb-4">Find me in</h2>
         <div className="flex gap-4">
-          <span className="bannerIcon">
-            <FaFacebookF />
-          </span>
-          <span className="bannerIcon">
-            <FaTwitter />
-          </span>
-          <span className="bannerIcon">
-            <FaLinkedinIn />
-          </span>
+              <a href="https://www.facebook.com/RaselHossainAdib" target="_blank">
+                <span className="bannerIcon">
+                    <FaFacebookF />
+                </span>
+              </a>
+              <a href="https://github.com/AdibRasel" target="_blank">
+                <span className="bannerIcon">
+                    <FaGithub />
+                </span>
+              </a>
+              <a href="https://stackoverflow.com/users/18261117/rasel-hossain-adib" target="_blank">
+                <span className="bannerIcon">
+                  <FaStackOverflow />
+                </span>
+              </a>
+
+              <a href="https://www.linkedin.com/in/raselhossainadib/" target="_blank">
+                <span className="bannerIcon">
+                  <FaLinkedinIn />
+                </span>
+              </a>
         </div>
       </div>
     </div>
