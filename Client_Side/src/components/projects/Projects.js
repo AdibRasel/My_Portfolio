@@ -7,6 +7,7 @@ import { projectOne, projectTwo, projectThree } from "../../assets/index";
 import Task_Manager from "../../assets/images/projects/Task_Manager.JPG"
 import Tosil_Office from "../../assets/images/projects/Tosil_Office.JPG"
 import Bank_Asia_Agent_Banking from "../../assets/images/projects/Bank_Asia_Agent_Banking.JPG"
+import Bank_Asia_Agent_Banking_Office_Side from "../../assets/images/projects/Bank_Asia_Agent_Banking_Office_Side.JPG"
 import Imo_Holidays from "../../assets/images/projects/Imo_Holidays.JPG"
 import My_Old_Portfolio from "../../assets/images/projects/My_Old_Portfolio.JPG"
 import My_Old_Portfolio_2 from "../../assets/images/projects/My_Old_Portfolio_2.JPG"
@@ -44,6 +45,14 @@ const Projects = () => {
           src={Task_Manager}
           link_github="https://github.com/SoftZoneSapur/-Task-manager-project"
           link_website="https://task-manager-project-full.netlify.app/"
+        />
+        <ProjectsCard
+          title="Bank Asia Office Side"
+          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+          Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
+          src={Bank_Asia_Agent_Banking_Office_Side}
+          link_github="https://github.com/AdibRasel/Bank_Asia_Office"
+          link_website="https://adibrasel.github.io/Bank_Asia_Office/"
         />
         <ProjectsCard
           title="Tosil_Office"
