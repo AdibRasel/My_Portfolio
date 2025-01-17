@@ -13,20 +13,17 @@ const ContactLeft = () => {
   return (
     <div className="w-full lgl:w-[35%] h-full bg-gradient-to-r from-[#1e2024] to-[#23272b] p-4 lgl:p-8 rounded-lg shadow-shadowOne flex flex-col gap-8 justify-center">
       <img
-        className="w-full h-64 object-cover rounded-lg mb-2"
+        className="w-full h-100 object-cover rounded-lg mb-2"
         src={RasalHossain}
         alt="contactImg"
       />
       <div className="flex flex-col gap-4">
         <h3 className="text-3xl font-bold text-white">Rasel Hossain (Adib)</h3>
         <p className="text-lg font-normal text-gray-400">
-          MERN Stack Developer
+        a Professional Programer.|
         </p>
         <p className="text-base text-gray-400 tracking-wide">
-        I'm Rasel Hossain (Adib), a (MERN) Stack developer. I have strong experience in various technologies including Html, CSS, Bootstrap,
-         JavaScript, React js, Node js, Express js, MongoDB, WordPress, Adobe Photoshop, Adobe Illustrator, and Office Applications. 
-         Feel free to contact me if you need help with any of this.
-         I look forward to partnering with you.
+        I'm Rasel Hossain (Adib), a Professional Programmer and Full Stack Developer specializing in MERN Stack. I excel in HTML, CSS, Bootstrap, JavaScript, React.js, Node.js, Express.js, MongoDB, WordPress, and more. I'm also experienced in Android and Apple app development, as well as RESTful API design. Feel free to reach out for assistance. Let's collaborate!
         </p>
         <p className="text-base text-gray-400 flex items-center gap-2">
           Phone: <span className="text-lightText">01934544352</span>

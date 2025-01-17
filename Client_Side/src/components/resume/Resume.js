@@ -11,7 +11,7 @@ const Resume = () => {
    const [experienceData, setExperienceData] = useState(false);
    const [achievementData, setAchievementData] = useState(false);
   return (
-    <section id="resume" className="w-full py-20 border-b-[1px] border-b-black">
+    <section style={{marginBottom:"0px"}} id="resume" className="w-full py-20 border-b-[1px] border-b-black">
       <div className="flex justify-center items-center text-center">
         <Title title="5+ YEARS OF EXPERIENCE" des="My Resume" />
       </div>

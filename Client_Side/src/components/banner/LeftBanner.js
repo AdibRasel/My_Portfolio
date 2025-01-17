@@ -6,7 +6,12 @@ import { SiTailwindcss, SiFigma, SiNextdotjs } from "react-icons/si";
 
 const LeftBanner = () => {
     const [text] = useTypewriter({
-      words: ["Professional Coder.", "MERN Stack Developer.", "REST/RESTful APIs developer."],
+      words: ["Professional Programer.",
+    "MERN Stack Developer.",
+    "REST/RESTful APIs Developer.",
+    "Android App Developer.",
+    "Apple App Developer.",
+    "Full Stack Developer."],
       loop: true,
       typeSpeed: 20,
       deleteSpeed: 10,
@@ -28,8 +33,7 @@ const LeftBanner = () => {
           />
         </h2>
         <p className="text-base font-bodyFont leading-6 tracking-wide">
-        I'm Rasel Hossain (Adib), a (MERN) Stack developer. I have strong experience in various technologies including Html, CSS, Bootstrap, JavaScript, React js, Node js, Express js, MongoDB, WordPress, Adobe Photoshop, Adobe Illustrator, and Office Applications. Feel free to contact me if you need help with any of this.
-I look forward to partnering with you.
+        I'm Rasel Hossain (Adib), a Professional Programmer and Full Stack Developer specializing in MERN Stack. I excel in HTML, CSS, Bootstrap, JavaScript, React.js, Node.js, Express.js, MongoDB, WordPress, and more. I'm also experienced in Android and Apple app development, as well as RESTful API design. Feel free to reach out for assistance. Let's collaborate!
         </p>
       </div>
       <div className="flex flex-col xl:flex-row gap-6 lgl:gap-0 justify-between">
