@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/My_Portfolio/static/css/main.af1b9626.css",
+    "main.js": "/My_Portfolio/static/js/main.4d855fb5.js",
+    "static/media/RasalHossain.png": "/My_Portfolio/static/media/RasalHossain.852dd16f231c8a4563cd.png",
+    "static/media/bannerImg.png": "/My_Portfolio/static/media/bannerImg.c6fef816103c81f5c150.png",
+    "static/media/My_Old_Portfolio_2.JPG": "/My_Portfolio/static/media/My_Old_Portfolio_2.1f276a15664d2c8d2e31.JPG",
+    "static/media/Bank_Asia_Agent_Banking.JPG": "/My_Portfolio/static/media/Bank_Asia_Agent_Banking.66ebb2dd5086f29b3b99.JPG",
+    "static/media/Imo_Holidays.JPG": "/My_Portfolio/static/media/Imo_Holidays.c24de1a99f60c104bc0b.JPG",
+    "static/media/Tosil_Office.JPG": "/My_Portfolio/static/media/Tosil_Office.e32eb8461475c98e05dc.JPG",
+    "static/media/JavaScript.JPG": "/My_Portfolio/static/media/JavaScript.eb92a6520d5715084422.JPG",
+    "static/media/MongoDB.JPG": "/My_Portfolio/static/media/MongoDB.9ea93c4eacf4b4cd257b.JPG",
+    "static/media/React.JPG": "/My_Portfolio/static/media/React.ad213051a5509bdeb5bb.JPG",
+    "static/media/My_Old_Portfolio.JPG": "/My_Portfolio/static/media/My_Old_Portfolio.92a5501c9460da8412b3.JPG",
+    "static/media/Bank_Asia_Agent_Banking_Office_Side.JPG": "/My_Portfolio/static/media/Bank_Asia_Agent_Banking_Office_Side.0c421d4a1bf430723813.JPG",
+    "static/media/Express.JPG": "/My_Portfolio/static/media/Express.7998390990e0111940d6.JPG",
+    "static/media/testimonialThree.jpg": "/My_Portfolio/static/media/testimonialThree.4c306caf29e910be7bd3.jpg",
+    "static/media/Node_Js.JPG": "/My_Portfolio/static/media/Node_Js.f4bb28d4e45aa56ee032.JPG",
+    "static/media/MongoDB_Project.JPG": "/My_Portfolio/static/media/MongoDB_Project.81def37ec871b4527186.JPG",
+    "static/media/Task_Manager.JPG": "/My_Portfolio/static/media/Task_Manager.b75c1a1a7b0f2dde9ced.JPG",
+    "static/media/testimonialOne.png": "/My_Portfolio/static/media/testimonialOne.c4706b2d1cadcb9f4daf.png",
+    "static/media/projectThree.jpeg": "/My_Portfolio/static/media/projectThree.47442baa3158613330ab.jpeg",
+    "static/media/testimonialTwo.png": "/My_Portfolio/static/media/testimonialTwo.c6df2773c486964035d9.png",
+    "static/media/projectTwo.jpg": "/My_Portfolio/static/media/projectTwo.1fabe2c8c93632187ee6.jpg",
+    "index.html": "/My_Portfolio/index.html",
+    "main.af1b9626.css.map": "/My_Portfolio/static/css/main.af1b9626.css.map",
+    "main.4d855fb5.js.map": "/My_Portfolio/static/js/main.4d855fb5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.af1b9626.css",
+    "static/js/main.4d855fb5.js"
+  ]
+}
