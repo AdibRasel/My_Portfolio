@@ -26,7 +26,7 @@ const ContactLeft = () => {
         I'm Rasel Hossain (Adib), a Professional Programmer and Full Stack Developer specializing in MERN Stack. I excel in HTML, CSS, Bootstrap, JavaScript, React.js, Node.js, Express.js, MongoDB, WordPress, and more. I'm also experienced in Android and Apple app development, as well as RESTful API design. Feel free to reach out for assistance. Let's collaborate!
         </p>
         <p className="text-base text-gray-400 flex items-center gap-2">
-          Phone: <span className="text-lightText">01934544352</span>
+          Phone: <span className="text-lightText">+8801934544352, +8801626757897</span>
         </p>
         <p className="text-base text-gray-400 flex items-center gap-2">
           Email: <span className="text-lightText">adibrasel.com@gmail.com, adibrasel.2022@gmail.com</span>
